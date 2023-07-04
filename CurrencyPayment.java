@@ -16,6 +16,7 @@ public class CurrencyPayment {
 
         System.out.println("Enter the amount you want to pay:");
         int amount = scanner.nextInt();
+        Arrays.sort(denominations);
 
         HashMap<Integer, Integer> paymentApproach = new HashMap<>();
 
